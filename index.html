@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+      h3{
+        text-align: center;
+      }
+      body{
+        background-color: antiquewhite;
+      }
+      div {
+        border: 3px solid rgb(96, 95, 95);
+        width: 310px;
+        height: 200px;
+        margin: auto;
+        position: relative;
+        top: 30px;
+        border-radius: 25px;
+        box-shadow: 1px 5px 15px 10px;
+      }
+
+      @media screen and (min-width: 0px) and (max-width: 320px) {
+        div {
+          background: url(./gt-red.jpg);
+          background-size: cover;
+        }
+      }
+      @media screen and (min-width: 321px) and (max-width: 480px) {
+        div {
+          background: url(./gt-white.jpg);
+          background-size: cover;
+        }
+      }
+
+      @media screen and (min-width: 481px) and (max-width: 720px) {
+        div {
+          background-image: url(./gt-black.jpg);
+          background-size: cover;
+        }
+      }
+
+      @media screen and (min-width: 721px) and (max-width: 1080px) {
+        div{
+          background-image: url(./gt-2.jpg);
+          background-size: cover;
+        }
+      }
+
+      @media screen and (min-width:1081px) and (max-width:1760px){
+        div{
+          background-image: url(./gt-chrome.jpg);
+          background-size: cover;
+        }
+      }
+
+      @media screen and (min-width: 1761px) and (max-width: 2560px){
+        div{
+          background-image: url(./gt-ch.jpg);
+          background-size: cover;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Changing image based on device width by Media Queries</h3>
+    <div></div>
+  </body>
+</html>
