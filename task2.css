@@ -18,16 +18,16 @@ body{
 }
 
 .first, .second, .third{
-    border: 2px black solid;
+    border: 2px rgb(248, 246, 246) solid;
     border-radius: 10px;
     margin: 30px;
     gap: 10px;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-content: center;
     justify-content: space-evenly;
+    width: 100%;
 
     
     
